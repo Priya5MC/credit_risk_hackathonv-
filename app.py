@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-model1=joblib.load("model.pkl")
+model=joblib.load("model.pkl")
 df=pd.read_csv('train_preprocessed_2.csv')
 #     
            
